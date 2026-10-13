@@ -1,0 +1,25 @@
+{
+  "name": "attendease",
+  "version": "6.0.0",
+  "private": true,
+  "description": "Secure student attendance management with role-based access, academic sessions, reporting and audit history.",
+  "main": "app.js",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "node --test",
+    "check": "node --check app.js && node --check lib/database.js && node --check lib/domain.js && node --check public/app-ui.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.19.0",
+    "nodemailer": "^7.0.5"
+  }
+}

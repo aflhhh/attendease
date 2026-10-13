@@ -1,0 +1,13 @@
+{
+  "name": "AttendEase Attendance Management",
+  "short_name": "AttendEase",
+  "description": "Student attendance management and reporting.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#17345f",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
